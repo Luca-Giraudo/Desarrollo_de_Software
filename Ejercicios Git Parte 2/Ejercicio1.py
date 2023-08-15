@@ -30,5 +30,5 @@ while opcion != 7:
             print("ERROR. Ingresar primero los dos valores")
         else:
             print(f"DIVISION: {valor1 / valor2}")
-    elif opcion >= 7:
+    elif opcion > 7:
         print("Opcion no reconocida. Ingresar nuevamente.\n")
