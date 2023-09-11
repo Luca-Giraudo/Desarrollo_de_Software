@@ -1,0 +1,55 @@
+/* Estilos para el encabezado */
+.encabezado {
+    background-color: #BD2A2E;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/*Estilo para la barra de navegacion de meses*/
+.barra-navegacion-meses {
+    background-color: #3B3936;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.barra-navegacion-meses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.barra-navegacion-meses li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.barra-navegacion-meses a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.barra-navegacion-meses a:hover {
+    text-decoration: underline;
+}
+
+/*Estilo pie de pagina*/
+.pie-pagina {
+    background-color: #BD2A2E;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.first-day {
+    grid-column-start: 5;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    padding: 0;
+}
+  
+
